@@ -1,0 +1,136 @@
+.body, html {
+    font-family:  "Helvetica Neue";
+}
+
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color:#FFC244 ;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.logo-container img {
+    width: 150px;
+ 
+ 
+}
+
+.cta-button {
+    background-color: #00846B;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 12px;
+    border-radius: 20px;
+    margin-left: auto;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: #FFC244;
+    justify-content: space-between;
+        padding-left: 350px;
+            padding-right: 350px;
+
+
+}
+
+.hero-content {
+    flex: 1;
+    padding: 20px;
+
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.hero .button {
+    background-color: #00846B;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px;
+}
+
+.search-bar input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 100%;
+}
+
+.search-bar button[type="submit"] {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar button[type="submit"] i {
+    color: #00846B;
+    font-size: 1.2rem;
+}
+
+.section-text h1 {
+text-align: center;
+font-size: 40px;
+}
+
+
+.partners-container {
+    padding-left: 7.5%;
+        padding-right: 7.5%;
+        margin: 0 auto;
+        max-width: calc(1124px + 15%);
+        box-sizing: border-box;
+        margin: var(--helio-space-S) auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 208px));
+        grid-gap: var(--helio-space-3XL) var(--helio-space-XL);
+        gap: var(--helio-space-3XL) var(--helio-space-XL);
+        justify-content: center;
+    }
